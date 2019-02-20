@@ -33,9 +33,11 @@ public class Palindrome1 {
         if (word.equalsIgnoreCase(backwardsWord)) {
             JOptionPane.showMessageDialog(null, word + " in reverse is " + backwardsWord
                     + ".\nIt IS a palindrome.");
+            System.exit(0);
         } else {
             JOptionPane.showMessageDialog(null, word + " in reverse is " + backwardsWord
                     + ".\nIt IS NOT a palindrome.");
+            System.exit(0);
         }
     }
 }
