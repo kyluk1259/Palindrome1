@@ -8,8 +8,9 @@ package palindrome.pkg1;
 import javax.swing.*;
 
 /**
- *
- * @author kyluk1259
+ * Kyle Lukaszek
+ * February 21st 2019
+ * Palindrome Program
  */
 public class Palindrome1 {
 
